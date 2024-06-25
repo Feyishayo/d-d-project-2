@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.full-container {
+  width: 30%;
+  height: auto;
+  margin: 1.5rem auto;
+  justify-content: start;
+  align-items: start;
+}
+
+.heading {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: start;
+}
+
+h3 {
+  font-size: 1.2rem;
+  letter-spacing: -0.02rem;
+  line-height: 140%;
+  font-weight: 485;
+  color: #57616c;
+}
+
+h4 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 485;
+}
+
+h5 {
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  font-weight: 400;
+  color: #57616c;
+}
+
+.search {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.add-container {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.add-container button {
+  background-color: #222222;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 485;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.resource-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-top: 1rem;
+  row-gap: 1rem;
+}
+
+.resource {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.25rem;
+  box-shadow: rgba(9, 30, 66, 0.08) 0px 1px 1px,
+    rgba(9, 30, 66, 0.08) 0px 0.5px 1px 0px,
+    rgba(229, 229, 229, 0.5) 0px 0px 0px 1px;
+}
+
+.name-icon {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-icon a {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 485;
+  text-decoration: none;
+  color: #222222;
+}
+
+.name-icon i {
+  color: #57616c;
+  cursor: pointer;
+}
+
+.resource-desc {
+  width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+}
+
+.full-modal {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(87, 97, 108, 0.2);
+  /* backdrop-filter: blur(10px); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem 0;
+  visibility: hidden;
+}
+
+.full-modal-show {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(87, 97, 108, 0.2);
+  /* backdrop-filter: blur(10px); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem 0;
+  visibility: visible;
+}
+
+.modal-container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.header-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.5rem;
+}
+
+.form-group {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.form-group label {
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.input-container {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.full-form {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+}
+
+.form-button {
+  width: 100%;
+  background-color: #222222;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 485;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
